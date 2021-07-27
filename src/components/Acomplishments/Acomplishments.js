@@ -1,19 +1,43 @@
-import React from 'react';
+import React from 'react'
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from '../../styles/GlobalComponents'
+import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles'
 
 const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
-];
+  { title: '', text: 'Student Volunteer @ RoboCup Singapore Open' },
+  {
+    text: 'Participants of RoboCup World Championship 2016',
+  },
+  {
+    title: '',
+    text: 'Director of Events @ Malaysian Community in SIM (MCSIM)',
+  },
+  { title: '', text: 'Impart Award by Student Development @ SIM' },
+]
 
 const Acomplishments = () => (
-  <div>
-    Acomplishments
-  </div>
-);
+  <Section>
+    <br />
+    <br />
+    <br />
+    <SectionDivider />
+    <br />
+    <SectionTitle>Personal Acomplishments</SectionTitle>
+    <Boxes>
+      {data
+        .map((card, index) => (
+          <Box key={index}>
+            <BoxNum>{card.title}</BoxNum>
+            <BoxText>{card.text}</BoxText>
+          </Box>
+        ))
+        .reverse()}
+    </Boxes>
+  </Section>
+)
 
-export default Acomplishments;
+export default Acomplishments

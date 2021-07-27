@@ -1,46 +1,96 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Event Booking System',
+    description:
+      'Created an event booking system using Waterfall model but no real database were involved in this project. Involved in writing code for different functions in the system and combining the code written by my other teammates into the final product.',
+    image: '/images/event-booking-system.png',
+    tags: ['Java', 'Waterfall Model', 'Group Project'],
+    code: 'https://github.com/Wo1fz/Uni-Event-Booking-System',
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Bug Tracking System',
+    description:
+      'Uses agile methodology - Scrum and the B-C-E model to develop the project but no real databaseswere involved in this project. Involved in writing the backend code. The front-end were developed using NetBeans IDE.',
+    image: '/images/bug-tracking-system.png',
+    tags: ['Java', 'Scrum', 'B-C-E model', 'Group Project'],
+    code: 'https://github.com/Wo1fz/Uni-Bug-Tracking-System',
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Crowdfunding For the Sick (CFS)',
+    description:
+      'Developed an online crowdfunding platform to fundraise or donate for the patients. Involved in maintaining technical reports, test cases and also designing a marketing website. Actual website were no longer hosted but the marketing website is shown in the link below.',
+    image: '/images/FYP.png',
+    tags: ['HTML', 'CSS', 'JavaScript', 'C#', 'MySQl'],
+    code: 'https://github.com/Wo1fz/FYPProject',
+    page: 'https://pearlynooi.wixsite.com/fyp-20-s4-20',
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Task Tracker',
+    description:
+      'Using React, I created my first web application and hosted it online using Netlify. Local Storage were used to store the data of the application.',
+    image: '/images/react-task-tracker.png',
+    tags: ['React.js'],
+    code: 'https://github.com/Wo1fz/React-Task-Tracker',
+    page: 'https://tasktracker-miao.netlify.app',
     id: 3,
   },
-];
+  {
+    title: 'Cocktail Search Engine',
+    description:
+      'Search engine for cocktail by fetching data from an online api. Users can navigate to specific cocktail for more details and back Home.',
+    image: '/images/cocktail.png',
+    tags: ['React.js', 'API'],
+    code: 'https://github.com/Wo1fz/React-Cocktail-Webpage',
+    page: 'https://cocktail-miao.netlify.app/',
+    id: 4,
+  },
+  {
+    title: 'Task Manager API',
+    description:
+      'A simple task manager application which fetches data from a MongoDB database using REST api.',
+    image: '/images/task-manager.png',
+    tags: ['Node.js', 'REST API', 'MongoDB'],
+    code: 'https://github.com/Wo1fz/NodeJS-Task-Manager',
+    id: 5,
+  },
+  {
+    title: 'Chat Application',
+    description:
+      'Chat engine which inlcudes online statuses, icons telling you who read the message, image support, sound notifications, the ability to create multiple rooms and login function which stores the login information in local storage.',
+    image: '/images/chat-app.png',
+    tags: ['React.js', 'REST API', 'Chatengine.io'],
+    code: 'https://github.com/Wo1fz/React-Chat-App',
+    page: 'https://chat-app-miao.netlify.app/',
+    id: 6,
+  },
+  {
+    title: 'eCommerce Website',
+    description:
+      'An eCommerce application that is fully funtional and it allows users to pay using Stripe and confirmation emails will be sent to both the client and host upon successful purchase.',
+    image: '/images/ecommerce.png',
+    tags: ['React.js', 'Commerce.js', 'Stripe'],
+    code: 'https://github.com/Wo1fz/React-Ecommerce-App',
+    page: 'https://ecommerce-miao.netlify.app/',
+    id: 7,
+  },
+]
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
-];
+  { year: 2014, text: 'Graduated from secondary school' },
+  { year: 2015, text: 'Started my studies @ Singapore Polytechnic' },
+  {
+    year: 2018,
+    text: 'Graduated from Singapore Polytechnic',
+  },
+  {
+    year: 2018,
+    text: 'Started my studies @ SIM Global Education',
+  },
+  {
+    year: 2021,
+    text: 'Graduated from University of Wollongong',
+  },
+]
