@@ -94,3 +94,15 @@ export const TimeLineData = [
     text: 'Graduated from University of Wollongong',
   },
 ]
+
+export const data = [
+  { title: '', text: 'Student Volunteer @ RoboCup Singapore Open' },
+  {
+    text: 'Participants of RoboCup World Championship 2016',
+  },
+  {
+    title: '',
+    text: 'Director of Events @ Malaysian Community in SIM (MCSIM)',
+  },
+  { title: '', text: 'Impart Award by Student Development @ SIM' },
+]

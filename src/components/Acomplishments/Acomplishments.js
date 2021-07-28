@@ -6,18 +6,7 @@ import {
   SectionTitle,
 } from '../../styles/GlobalComponents'
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles'
-
-const data = [
-  { title: '', text: 'Student Volunteer @ RoboCup Singapore Open' },
-  {
-    text: 'Participants of RoboCup World Championship 2016',
-  },
-  {
-    title: '',
-    text: 'Director of Events @ Malaysian Community in SIM (MCSIM)',
-  },
-  { title: '', text: 'Impart Award by Student Development @ SIM' },
-]
+import { data } from '../../constants/constants'
 
 const Acomplishments = () => (
   <Section>
