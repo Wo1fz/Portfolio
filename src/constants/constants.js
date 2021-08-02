@@ -91,7 +91,7 @@ export const TimeLineData = [
   },
   {
     year: 2021,
-    text: 'Graduated from University of Wollongong',
+    text: 'Graduated from University of Wollongong @ SIMGE',
   },
 ]
 
