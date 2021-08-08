@@ -84,7 +84,7 @@ export const projects = [
     tags: ['React.js', 'Google Maps API', 'RapidAPI'],
     code: 'https://github.com/Wo1fz/React-Travel-App',
     page: 'https://travelcompanion-miao.netlify.app',
-    id: 7,
+    id: 8,
   },
 ]
 
