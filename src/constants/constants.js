@@ -79,7 +79,7 @@ export const projects = [
   {
     title: 'Travel Companion Website',
     description:
-      'A travel companion website that provides details about food, hotels, and attractions all around the world. Furthermore, the weather condition will also be shown on the map.',
+      'A travel companion website that provides details about restaurants, hotels, and attractions all around the world. Furthermore, the weather condition will also be shown on the map.',
     image: '/images/travelApp.png',
     tags: ['React.js', 'Google Maps API', 'RapidAPI'],
     code: 'https://github.com/Wo1fz/React-Travel-App',
