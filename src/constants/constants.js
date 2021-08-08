@@ -76,6 +76,16 @@ export const projects = [
     page: 'https://ecommerce-miao.netlify.app/',
     id: 7,
   },
+  {
+    title: 'Travel Companion Website',
+    description:
+      'A travel companion website that provides details about food, hotels, and attractions all around the world. Furthermore, the weather condition will also be shown on the map.',
+    image: '/images/travelApp.png',
+    tags: ['React.js', 'Google Maps API', 'RapidAPI'],
+    code: 'https://github.com/Wo1fz/React-Travel-App',
+    page: 'https://travelcompanion-miao.netlify.app',
+    id: 7,
+  },
 ]
 
 export const TimeLineData = [
