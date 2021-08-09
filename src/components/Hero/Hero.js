@@ -19,7 +19,9 @@ const Hero = () => (
         A freshly graduated Computer Science student who's passionate about
         learning new things and thrive on meeting challenges.
       </SectionText>
-      <Button onClick={() => (window.location = '#about')}>Learn More</Button>
+      <Button onClick={() => (window.location = '#about')}>
+        More About Me
+      </Button>
     </LeftSection>
   </Section>
 )
