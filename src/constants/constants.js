@@ -90,7 +90,7 @@ export const projects = [
     title: 'Covid-19 Tracker',
     description:
       'A simple Covid-19 statistics tracker that allows users to check global cases and also specific country cases.',
-    image: '/images/travelApp.png',
+    image: '/images/covid-tracker.png',
     tags: ['Vue.js', 'Tailwind', 'covid19api'],
     code: 'https://github.com/Wo1fz/VueJS-Covid-Tracker',
     page: 'https://covid-tracker-miao.netlify.app/',
