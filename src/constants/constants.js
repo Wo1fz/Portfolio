@@ -57,6 +57,16 @@ export const projects = [
     id: 5,
   },
   {
+    title: 'Personal Portfolio',
+    description:
+      'A personal portfolio that contains my basic informations and a few projects that I did in my university and also those that I learned online.',
+    image: '/images/portfolio.png',
+    tags: ['React.js', 'Next.js'],
+    code: 'https://github.com/Wo1fz/Portfolio',
+    page: 'https://mingyao.netlify.app/',
+    id: 6,
+  },
+  {
     title: 'Chat Application',
     description:
       'Chat engine which inlcudes online statuses, icons telling you who read the message, image support, sound notifications, the ability to create multiple rooms and login function which stores the login information in local storage.',
@@ -64,7 +74,7 @@ export const projects = [
     tags: ['React.js', 'REST API', 'Chatengine.io'],
     code: 'https://github.com/Wo1fz/React-Chat-App',
     page: 'https://chat-app-miao.netlify.app/',
-    id: 6,
+    id: 7,
   },
   {
     title: 'eCommerce Website',
@@ -74,7 +84,7 @@ export const projects = [
     tags: ['React.js', 'Commerce.js', 'Stripe'],
     code: 'https://github.com/Wo1fz/React-Ecommerce-App',
     page: 'https://ecommerce-miao.netlify.app/',
-    id: 7,
+    id: 8,
   },
   {
     title: 'Travel Companion Website',
@@ -84,7 +94,7 @@ export const projects = [
     tags: ['React.js', 'Google Maps API', 'RapidAPI'],
     code: 'https://github.com/Wo1fz/React-Travel-App',
     page: 'https://travelcompanion-miao.netlify.app',
-    id: 8,
+    id: 9,
   },
   {
     title: 'Covid-19 Tracker Website',
@@ -94,7 +104,7 @@ export const projects = [
     tags: ['Vue.js', 'Tailwind', 'covid19api'],
     code: 'https://github.com/Wo1fz/VueJS-Covid-Tracker',
     page: 'https://covid-tracker-miao.netlify.app/',
-    id: 9,
+    id: 10,
   },
   {
     title: 'Instagram Clone Website',
@@ -103,7 +113,7 @@ export const projects = [
     tags: ['React Native', 'Firebase Firestore', 'Redux', 'Expo'],
     code: 'https://github.com/Wo1fz/ReactNative-InstagramClone',
     page: 'https://instaclone-miao.netlify.app/',
-    id: 10,
+    id: 11,
   },
 ]
 
