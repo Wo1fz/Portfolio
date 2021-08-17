@@ -87,7 +87,7 @@ export const projects = [
     id: 8,
   },
   {
-    title: 'Covid-19 Tracker',
+    title: 'Covid-19 Tracker Website',
     description:
       'A simple Covid-19 statistics tracker that allows users to check global cases and also specific country cases.',
     image: '/images/covid-tracker.png',
@@ -95,6 +95,15 @@ export const projects = [
     code: 'https://github.com/Wo1fz/VueJS-Covid-Tracker',
     page: 'https://covid-tracker-miao.netlify.app/',
     id: 9,
+  },
+  {
+    title: 'Instagram Clone Website',
+    description: 'Cloning the few basic functions of the Instagram Application such as post images, following other users, like and comment a post using Expo.',
+    image: '/images/instaclone.png',
+    tags: ['React Native', 'Firebase Firestore', 'Redux', 'Expo'],
+    code: 'https://github.com/Wo1fz/ReactNative-InstagramClone',
+    page: 'https://instaclone-miao.netlify.app/',
+    id: 10,
   },
 ]
 
