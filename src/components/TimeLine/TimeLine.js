@@ -72,7 +72,7 @@ const Timeline = () => {
       <SectionText>
         Hello, I'm Ming Yao, and I've just graduated with Bachelor in Computer
         Science. My passion for technologies began when I was involved in CCAs
-        during my diploma. People find me to be an upbeat, selfmotivated team
+        during my diploma. People find me to be an upbeat, self-motivated team
         player.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
