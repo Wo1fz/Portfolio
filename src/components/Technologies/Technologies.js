@@ -45,8 +45,9 @@ const Technologies = () => (
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js, <br />
-            Firebase Firestore and Databases
+            Node.js, Firebase
+            <br />
+            Firestore and Databases
           </ListParagraph>
         </ListContainer>
       </ListItem>

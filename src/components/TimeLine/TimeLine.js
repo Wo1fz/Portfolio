@@ -70,8 +70,10 @@ const Timeline = () => {
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Graduated from SIM Global Education with Bachelor of Computer Science
-        (Digital System Security) awarded by the University of Wollongong.
+        Hello, I'm Ming Yao, and I've just graduated with Bachelor in Computer
+        Science. My passion for technologies began when I was involved in CCAs
+        during my diploma. People find me to be an upbeat, selfmotivated team
+        player.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
