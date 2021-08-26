@@ -23,7 +23,7 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've been learning a range of technologies both from the school and
+      I've been learning a range of technologies both from the university and
       self-learning.
     </SectionText>
     <List>
@@ -33,7 +33,9 @@ const Technologies = () => (
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            HTML & CSS, React.js
+            <br />
+            Vue.js, Tailwind and React Native
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,7 +45,8 @@ const Technologies = () => (
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js and Databases
+            Node.js, <br />
+            Firebase Firestore and Databases
           </ListParagraph>
         </ListContainer>
       </ListItem>
