@@ -107,8 +107,9 @@ export const projects = [
     id: 10,
   },
   {
-    title: 'Instagram Clone Website',
-    description: 'Cloning the few basic functions of the Instagram Application such as post images, following other users, like and comment a post using Expo.',
+    title: 'Instagram Clone',
+    description:
+      'Cloning the few basic functions of the Instagram Application such as posting images, following other users, like and comment a post.',
     image: '/images/instaclone.png',
     tags: ['React Native', 'Firebase Firestore', 'Redux', 'Expo'],
     code: 'https://github.com/Wo1fz/ReactNative-InstagramClone',
