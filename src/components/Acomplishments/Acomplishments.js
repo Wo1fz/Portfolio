@@ -6,7 +6,7 @@ import {
   SectionTitle,
 } from '../../styles/GlobalComponents'
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles'
-import { data } from '../../constants/constants'
+import { accomplishments } from '../../constants/constants'
 
 const Acomplishments = () => (
   <Section>
@@ -17,7 +17,7 @@ const Acomplishments = () => (
     <br />
     <SectionTitle>Personal Acomplishments</SectionTitle>
     <Boxes>
-      {data
+      {accomplishments
         .map((card, index) => (
           <Box key={index}>
             <BoxNum>{card.title}</BoxNum>
