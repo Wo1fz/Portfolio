@@ -116,6 +116,16 @@ export const projects = [
     page: 'https://instaclone-miao.netlify.app/',
     id: 11,
   },
+  {
+    title: 'Movie Ticket Booking Web Application',
+    description:
+      'A single webpage application that allows users to book movie tickets via our web application.',
+    image: '/images/movieTicket.png',
+    tags: ['React.js', 'Spring Boot', 'MongoDB Atlas'],
+    code: 'https://github.com/Wo1fz/movieTicketBookingWebApplication',
+    page: 'https://usmovie-my.netlify.app/',
+    id: 12,
+  },
 ]
 
 export const TimeLineData = [
