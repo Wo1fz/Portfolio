@@ -86,11 +86,11 @@ export const ExternalLinks = styled.a`
   color: #d4c0c0;
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
-  background: #333399;
+  background: #0000b3;
   border-radius: 15px;
   transition: 0.5s;
   &:hover {
-    background: #6666cc;
+    background: #b9137c;
   }
 `
 
