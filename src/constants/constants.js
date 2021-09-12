@@ -152,9 +152,9 @@ export const accomplishments = [
   },
   {
     title: '',
-    text: 'Director of Events @ Malaysian Community in SIM (MCSIM)',
+    text: 'Elected as Director of Events @ Malaysian Community in SIM (MCSIM)',
   },
-  { title: '', text: 'Impart Award by Student Development @ SIM' },
+  { title: '', text: 'Received Impart Award by Student Development @ SIM' },
   {
     title: '',
     text: 'Co-host of two Outstanding Event Award by Student Development @ SIM',
