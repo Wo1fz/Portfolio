@@ -45,7 +45,7 @@ const Technologies = () => (
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js, Spring Boot
+            Node.js, Spring Boot,
             <br />
             Firebase Firestore and Databases
           </ListParagraph>
