@@ -159,4 +159,8 @@ export const accomplishments = [
     title: '',
     text: 'Co-host of two Outstanding Event Award by Student Development @ SIM',
   },
+  {
+    title: '',
+    text: 'Won 3rd Place in the Developer Track of the hackathon organised by HACK-IT at OCBC',
+  },
 ]
